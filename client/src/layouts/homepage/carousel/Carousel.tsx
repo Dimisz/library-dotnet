@@ -14,15 +14,22 @@ export default function Carousel(){
                     <div className='carousel-item active'>
                         <div className='row d-flex justify-content-center align-items-center'>
                             <PlaceholderBook />
+                            <PlaceholderBook />
+                            <PlaceholderBook />
+                            
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
                             <PlaceholderBook />
+                            <PlaceholderBook />
+                            <PlaceholderBook />
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
+                            <PlaceholderBook />
+                            <PlaceholderBook />
                             <PlaceholderBook />
                         </div>
                     </div>
