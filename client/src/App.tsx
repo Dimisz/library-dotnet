@@ -1,4 +1,7 @@
-import { Button, Typography } from "@mui/material";
+import './App.css'
+import Carousel from './layouts/homepage/carousel/Carousel'
+import ExploreTopBooks from './layouts/homepage/ExploreTopBooks'
+import Navbar from './layouts/Navbar'
 
 
 export default function App() {
@@ -6,10 +9,9 @@ export default function App() {
 
   return (
     <>
-      <Typography variant="body1">
-        Hey there
-      </Typography>
-      <Button variant="contained">Here</Button>
+      <Navbar />
+      <Carousel />
+      <ExploreTopBooks />
     </>
   )
 }
